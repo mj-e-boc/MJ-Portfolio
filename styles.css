@@ -11,7 +11,7 @@
     justify-content: flex-end;
     align-items: center;
     font-family: "Roboto Condensed", sans-serif;
-    color: #ffffff;
+    color: #fff;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -95,7 +95,7 @@
 .div {
     display: flex;
     justify-content: space-evenly;
-    color: #ffffff;
+    color: #fff;
     list-style: none;
-    margin-right: 12%;
+    margin-right: 13%;
 }
