@@ -1,0 +1,107 @@
+.body {
+    background-color: #191765;
+    background-image: url(/Images/Ellipse\ 18.png), url(/Images/Ellipse\ 19.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 5px;
+    style: none;
+    color: #fff;
+}
+
+.bars {
+    width: max-content;
+    margin-right: 40.3px;
+}
+
+.navbar :first-child {
+    margin-right: auto;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    color: #7d73fc;
+    margin-top: 63px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #edecff;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.para {
+    display: flex;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 28px;
+    color: #c8c8d4;
+    text-align: center;
+    border-bottom: 1px solid #646369;
+    padding-bottom: 33px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #f5f5ff;
+    align-content: center;
+    border-bottom: 1px solid #646369;
+}
+
+.lists {
+    list-style: none;
+}
+
+.headline {
+    color: #9490ff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 24.5px;
+}
+
+.div {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    list-style: none;
+    margin-right: 13%;
+}
