@@ -11,15 +11,18 @@ Snapshot of M jay's Software Developer skills
 - HTML, CSS
 - JS
 
-To get a local copy up and running follow these simple example steps.
+## Getting Started
 
-### Prerequisites
+-Open terminal
+-Run cd\path\where\you\want\your\local\copy
 
-- Terminal
+#clone the repo
+1.Run* git clone git@github:Reem-lab/README.git
+11.Run* cd README/
 
 ## Author
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@mj-e-boc](https://github.com/mj-e-boc)
 - Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
