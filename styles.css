@@ -52,7 +52,7 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
-.para {
+.par {
     display: flex;
     font-style: normal;
     font-weight: 100;
@@ -65,7 +65,7 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
-.footer {
+.foot {
     display: flex;
     flex-wrap: wrap;
     font-style: normal;
@@ -78,7 +78,7 @@
     border-bottom: 1px solid #646369;
 }
 
-.lists {
+.list {
     list-style: none;
 }
 
