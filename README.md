@@ -2,17 +2,20 @@
 
 M Jay Portfolio
 
+# Project Description
+
+Snapshot of M jay's Software Developer skills
+
 ## Built With
 
 - HTML, CSS
 - JS
 
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Terminal 
+- Terminal
 
 ## Author
 
@@ -21,7 +24,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@mj-e-boc](https://github.com/mj-e-boc)
 - Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ronald-mjonono-86365988)
-
 
 ## 🤝 Contributing
 
@@ -34,3 +36,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Inspired by Microverse Alumni
+
+📝 License
+
+This project is MIT licensed.
