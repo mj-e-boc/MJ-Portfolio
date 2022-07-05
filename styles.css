@@ -243,14 +243,14 @@ a {
 
 .textinput {
   height: 48px;
-  margin-bottom: 24px;
   padding: 0 16px;
+  margin: 0 10px 24px 10px;
 }
 
 .textarea {
   height: 148px;
-  margin-bottom: 40px;
   padding: 12px;
+  margin: 0 10px 40px 10px;
 }
 
 .subbutton {
@@ -262,4 +262,16 @@ a {
 form {
   display: flex;
   flex-direction: column;
+}
+
+.divbottom {
+  display: flex;
+  flex-direction: column;
+  color: #ebebff;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
 }
