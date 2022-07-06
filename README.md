@@ -25,6 +25,19 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ronald-mjonono-86365988)
 
+👤 **Author2**
+
+- GitHub: [@praisespjmt](https://github.com/PraisesPJMT)
+- Twitter: [@praisespjmt](https://twitter.com/PraisesPJMT)
+- LinkedIn: [Praises Musa Tula](https://www.linkedin.com/in/praises-tula-9233aa76)
+
+👤 **Author3**
+
+GitHub: [@kessio](https://github.com/kessio)
+
+- Twitter: [@kessio_sharon](https://twitter.com/kessio_sharon)
+- LinkedIn: [sharon-kessio](https://www.linkedin.com/in/sharon-kessio-172220b5)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
