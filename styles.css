@@ -395,9 +395,6 @@ form {
   }
 }
 
-
-/* DESKTOP VERSION */
-
 @media (max-width: 768px) {
   .navlist {
     display: none;
