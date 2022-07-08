@@ -490,6 +490,17 @@ form {
     margin-left: 7%;
   }
 
+  .image:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+    transition-delay: 500ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  .button:hover {
+    transition: all 1.5s ease-in;
+  }
+
   .list {
     color: #dcdce8;
     display: flex;
