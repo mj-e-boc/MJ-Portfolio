@@ -501,6 +501,15 @@ form {
     transition: all 1.5s ease-in;
   }
 
+  h2.navitem {
+    transition: all 2s;
+    animation: slidein 2s;
+  }
+
+  h2.navitem:hover {
+    transform: rotate(360deg);
+  }
+
   .list {
     color: #dcdce8;
     display: flex;
