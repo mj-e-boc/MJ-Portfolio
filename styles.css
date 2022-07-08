@@ -349,15 +349,13 @@ form {
         margin-left: 12%;
         color: #fff;
     }
-    .list {
-        margin-top: none;
-    }
     .bod {
         display: flex;
         margin-bottom: 5%;
     }
     .mai1 {
         margin-right: 11%;
+        margin-bottom: 5%;
     }
     .para1 {
         font-style: normal;
@@ -406,12 +404,12 @@ form {
     .logo {
         display: hidden;
     }
+    .navitem {
+        margin-right: 3%;
+    }
     .navitem:first-child {
         margin-right: auto;
         margin-left: 7%;
-    }
-    .navitem {
-        margin-right: 3%;
     }
     a {
         text-decoration: none;
