@@ -73,9 +73,16 @@ a {
   justify-content: center;
 }
 
-#workleft,
 #workright {
   color: #646369;
+  margin-right: 14%;
+  margin-left: 1%;
+}
+
+#workleft {
+  color: #646369;
+  margin-left: 14%;
+  margin-right: 1%;
 }
 
 .footer {
@@ -193,10 +200,6 @@ a {
   font-family: "Roboto Condensed", sans-serif;
   align-items: center;
   justify-content: flex-start;
-}
-
-.list:last-child {
-  margin-right: 15%;
 }
 
 .button {
@@ -382,6 +385,10 @@ form {
   .footericons {
     display: none;
   }
+
+  .workborder {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -395,6 +402,7 @@ form {
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
+    width: 100%;
   }
 
   .div,
