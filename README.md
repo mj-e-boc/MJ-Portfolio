@@ -13,6 +13,10 @@ Snapshot of M jay's Software Developer skills
 
 To get a local copy up and running follow these simple example steps.
 
+### Online version
+
+https://mj-e-boc.github.io/MJ-Portfolio/
+
 ### Prerequisites
 
 - Terminal
