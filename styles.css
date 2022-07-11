@@ -48,7 +48,6 @@ a {
   to {
     margin-left: 0%;
   }
-
 }
 
 .bars {
@@ -82,7 +81,6 @@ a {
 }
 
 .para {
-
   font-style: normal;
   font-weight: 100;
   font-size: 20px;
@@ -410,7 +408,6 @@ form {
   .workborder {
     display: none;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -495,7 +492,6 @@ form {
     margin: 0 0 0 10%;
     margin-left: 7%;
   }
-
 
   .image:hover {
     transform: scale(1.2);
