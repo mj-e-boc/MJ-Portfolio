@@ -1,6 +1,6 @@
 .body {
   background-color: #191765;
-  background-image: url(/Images/Ellipse\ 18.png), url(/Images/Ellipse\ 19.png);
+  background-image: url(Images/Ellipse\ 18.png), url(Images/Ellipse\ 19.png);
   background-repeat: no-repeat;
   background-position: left top, right bottom;
   background-size: 2%;
