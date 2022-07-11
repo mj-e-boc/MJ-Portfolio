@@ -29,6 +29,28 @@ a {
   color: #fff;
 }
 
+.navitem a {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-direction: bounce;
+}
+
+.navitem a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+
+}
+
 .bars {
   width: max-content;
   margin-right: 40.3px;
@@ -389,6 +411,7 @@ form {
   .workborder {
     display: none;
   }
+
 }
 
 @media (min-width: 768px) {
@@ -474,6 +497,26 @@ form {
     margin-left: 7%;
   }
 
+
+  .image:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+    transition-delay: 500ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  .button:hover {
+    transition: all 1.5s ease-in;
+  }
+
+  h2.navitem {
+    transition: all 2s;
+    animation: slidein 2s;
+  }
+
+  h2.navitem:hover {
+    transform: rotate(360deg);
+  }
   .list {
     color: #dcdce8;
     display: flex;
