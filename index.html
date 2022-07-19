@@ -27,19 +27,32 @@
                 <a href="#"><i class="fa fa-envelope-o"></i></a>
             </li>
         </ul>
-        <nav>
-            <ul class="navbar">
-                <li>
-                    <a href="#">
-                        <h2 class="logo">M Jay</h2>
-                    </a>
+        <nav class="navbar">
+            <a href="#">
+                <h2 class="nav-branding">M Jay</h2>
+            </a>
+
+            <ul id="nav-menu">
+                <li class="navthing">
+                    <a class="nav-linki" href="#recent">Portfolio</a>
+                    <i class="fa-solid fa-greater-than itemarrow3"></i>
                 </li>
-                <div>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
+
+                <li class="navthing">
+                    <a class="nav-linki" href="#contact_section">About</a>
+                    <i class="fa-solid fa-greater-than itemarrow2"></i>
+                </li>
+
+                <li class="navthing">
+                    <a class="nav-linki" href="#contact_section">Contact</a>
+                    <i class="fa-solid fa-greater-than itemarrow1"></i>
+                </li>
             </ul>
+            <div id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
@@ -119,7 +132,7 @@
                 <h1 class="works">Works</h1>
             </li>
         </ul>
-        <h2 class="recent">MY RECENT WORK</h2>
+        <h2 id="recent">MY RECENT WORK</h2>
         <h2 class="recentwork">My recent work</h2>
 
         <div class="workborder">
@@ -222,7 +235,7 @@
             </footer>
         </section>
     </div>
-    <section class="contact_section">
+    <section id="contact_section">
         <h2 class="contactme">CONTACT US</h2>
         <p class="cpara">
             If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
@@ -245,6 +258,7 @@
         </ul>
         <p class="divbottom">mjononoronald@gmail.com</p>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>

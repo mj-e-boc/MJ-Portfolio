@@ -6,10 +6,15 @@
     background-size: 2%;
 }
 
+#hamburger {
+    display: none;
+    cursor: pointer;
+}
+
 .navbar {
     display: flex;
     list-style: none;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     font-family: "Roboto Condensed", sans-serif;
     color: #fff;
@@ -20,10 +25,50 @@
 }
 
 a {
+    color: #fff;
+}
+
+.navthingi {
+    color: #fff;
+    list-style: none;
+    margin-top: 30%;
+    width: 100px;
+    margin-right: 50%;
+    font-size: 24px;
+}
+
+.navthingi a {
+    top: 40%;
+}
+
+.navthing {
+    list-style: none;
+    margin-top: 20%;
+    width: 100px;
+    font-size: 24px;
+    display: flex;
+}
+
+.itemarrow1 {
+    padding-left: 235px;
+    color: #ACB7C3;
+}
+
+.itemarrow2 {
+    padding-left: 250px;
+    color: #ACB7C3;
+}
+
+.itemarrow3 {
+    padding-left: 230px;
+    color: #ACB7C3;
+}
+
+a {
     text-decoration: none;
 }
 
-.logo {
+.nav-branding {
     margin-left: 5px;
     list-style: none;
     color: #fff;
@@ -248,7 +293,7 @@ a {
     line-height: 32px;
 }
 
-.recent {
+#recent {
     width: 327px;
     height: 104px;
     font-family: "Roboto Condensed", sans-serif;
@@ -278,7 +323,7 @@ a {
     margin: 24px 0 40px 0;
 }
 
-.contact_section {
+#contact_section {
     text-align: center;
 }
 
@@ -363,6 +408,18 @@ form {
     margin: 20% 0;
 }
 
+.nav-linki,
+a {
+    text-align: left;
+    margin-right: 400%;
+    transition: all ease-in-out;
+}
+
+.nav-linki:hover {
+    transform: rotate(45deg);
+    color: #9490ff;
+}
+
 @media (max-width: 480px) {
     .recentwork {
         display: none;
@@ -403,6 +460,10 @@ form {
     }
 }
 
+.portfolio {
+    margin-top: 100%;
+}
+
 @media (max-width: 768px) {
     .navlist {
         display: none;
@@ -412,6 +473,41 @@ form {
     }
     .workborder {
         display: none;
+    }
+    #hamburger {
+        display: block;
+    }
+    #hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    #hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    #nav-menu {
+        justify-content: flex-start;
+        position: fixed;
+        left: -130%;
+        flex-direction: column;
+        background-color: transparent;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        gap: 23%;
+        background-color: ;
+        height: 100%;
+        top: -1%;
+        background-color: #191765;
+        background-image: url(Images/Ellipse\ 18.png), url(Images/Ellipse\ 19.png);
+        background-repeat: no-repeat;
+        background-position: left 30%, right center;
+        background-size: 30%;
+        opacity: 0.95;
+    }
+    #nav-menu.active {
+        left: 0;
     }
 }
 
